@@ -1,0 +1,76 @@
+*{
+  box-sizing: border-box;
+}
+/* Nel body mettiamo: sfondo e creaiamo il contenitore con il quadro grande */
+body{
+  background-image: url(background.jpg);
+  background-size: 100%;
+}
+
+ body .container{
+  width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 50px;
+  background: rgba(0,0,0,0.5);
+}
+
+/* Nel header sistemiamo il logo e il motto h1 */
+header .logo{
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+header h1{
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(0,250,0);
+  line-height: 5px;
+}
+
+/* Nel nav troviamo la barra dove si possono prenotare e accendere le luci */
+nav section{
+  text-align: center;
+  background-color: rgb(0,200,0);
+  padding: 12px;
+  margin-bottom: 15px;
+}
+
+/* Nel main lo dividiamo in due parti , la prima troviamo i dettagli e i nomi dei monopattini */
+main section h2{
+  color: white;
+  font-family: sans-serif;
+  line-height: 1px;
+  display: inline-block;
+}
+main section .dettagli{
+  color: white;
+  font-family: sans-serif;
+}
+
+/* Mentre in questa seconda parte abbiamo le 3 batterie dei rispettivi monopattini */
+main section .batteria-Gino22{
+  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #EDB120;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+main section .batteria-Mike24{
+  width: 600px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(0,150,0);
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+main section .batteria-Fede154{
+  width: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #A2142F;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
